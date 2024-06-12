@@ -1,0 +1,50 @@
+.board{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+}
+
+.word{
+  display: flex;
+  gap: 5px;
+
+}
+
+.character{
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  /* background-color: black; */
+  /* color: white; */
+}
+
+.notfound{
+  background-color: lightgray;
+  color: white;
+}
+
+.match{
+  background-color: green;
+  color: white;
+}
+
+.found{
+  background-color: yellow;
+  color: white;
+}
+
+.title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
