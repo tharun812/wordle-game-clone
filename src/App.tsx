@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const apiUrl = 'http://localhost:3343';
+const apiUrl = 'https://api.frontendexpert.io/api/fe/wordle-words';
 const WORD_LENGTH = 5;
 
 
